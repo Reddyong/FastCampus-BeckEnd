@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 class Movie {
     private String name;
     private String openDate;
@@ -44,7 +46,7 @@ class Movie {
 
     @Override
     public String toString() {
-        return "Movie{" +
+        return "fc.java.part2.Movie{" +
                 "name='" + name + '\'' +
                 ", openDate='" + openDate + '\'' +
                 ", hero='" + hero + '\'' +

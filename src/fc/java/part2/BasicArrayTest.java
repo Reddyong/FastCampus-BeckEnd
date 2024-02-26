@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class BasicArrayTest {
     public static void main(String[] args) {
         float[] f = new float[3];

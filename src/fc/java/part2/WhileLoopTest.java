@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class WhileLoopTest {
     public static void main(String[] args) {
         int i = 1;

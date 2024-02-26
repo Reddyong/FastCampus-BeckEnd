@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class CastingTest {
     public static void main(String[] args) {
         float fl = .10F;

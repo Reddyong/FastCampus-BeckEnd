@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class BinaryExam {
     public static void main(String[] args) {
         int decimal = 123;

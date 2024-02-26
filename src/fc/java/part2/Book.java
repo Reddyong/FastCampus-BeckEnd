@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 class Book {
     public String title;
     public int price;
@@ -44,7 +46,7 @@ class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
+        return "fc.java.part2.Book{" +
                 "title='" + title + '\'' +
                 ", price=" + price +
                 ", company='" + company + '\'' +

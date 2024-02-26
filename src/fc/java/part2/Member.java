@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 class Member {
     private String name;
     private int age;
@@ -32,7 +34,7 @@ class Member {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "fc.java.part2.Member{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", phoneNumber='" + phoneNumber + '\'' +

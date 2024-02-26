@@ -1,46 +1,49 @@
-package fc.java.part3;
+package fc.java.model;
 
-public class Person {
+public class MemberDTO {
     private String name;
     private int age;
     private String phoneNumber;
 
-    public Person() {
+    public MemberDTO() {
     }
 
-    public Person(String name, int age, String phoneNumber) {
+    public MemberDTO(String name, int age, String phoneNumber) {
+        if (age < 0) {
+            throw new IllegalArgumentException();
+        }
         this.name = name;
         this.age = age;
         this.phoneNumber = phoneNumber;
-    }
-
-    public void play() {
-        System.out.println("운동을 한다.");
-    }
-
-    public void eat() {
-        System.out.println("음식을 먹다.");
-    }
-
-    public void walk() {
-        System.out.println("걷다.");
     }
 
     public String getName() {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public int getAge() {
         return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public String getPhoneNumber() {
         return phoneNumber;
     }
 
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
     @Override
     public String toString() {
-        return "Person{" +
+        return "MemberDTO{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", phoneNumber='" + phoneNumber + '\'' +

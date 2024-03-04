@@ -1,5 +1,7 @@
 package fc.java.model;
 
+import fc.java.part4.Employee;
+
 public class MempVO extends Employee {
     private String mdept;
 

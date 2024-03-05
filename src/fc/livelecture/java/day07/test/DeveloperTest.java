@@ -1,6 +1,6 @@
-package fc.livelecture.java.test;
+package fc.livelecture.java.day07.test;
 
-import fc.livelecture.java.domain.Developer;
+import fc.livelecture.java.day07.domain.Developer;
 
 public class DeveloperTest {
     public static void main(String[] args) {

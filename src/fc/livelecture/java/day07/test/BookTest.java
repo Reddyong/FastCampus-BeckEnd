@@ -1,7 +1,7 @@
-package fc.livelecture.java.test;
+package fc.livelecture.java.day07.test;
 
-import fc.livelecture.java.domain.Comic;
-import fc.livelecture.java.domain.Novel;
+import fc.livelecture.java.day07.domain.Comic;
+import fc.livelecture.java.day07.domain.Novel;
 
 public class BookTest {
     public static void main(String[] args) {

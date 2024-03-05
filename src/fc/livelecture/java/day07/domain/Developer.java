@@ -1,4 +1,4 @@
-package fc.livelecture.java.domain;
+package fc.livelecture.java.day07.domain;
 
 public class Developer {
     private String name;

@@ -1,8 +1,8 @@
-package fc.livelecture.java.test;
+package fc.livelecture.java.day07.test;
 
-import fc.livelecture.java.domain.Dog;
-import fc.livelecture.java.domain.Family;
-import fc.livelecture.java.domain.Mom;
+import fc.livelecture.java.day07.domain.Dog;
+import fc.livelecture.java.day07.domain.Family;
+import fc.livelecture.java.day07.domain.Mom;
 
 public class FamilyTest {
     public static void main(String[] args) {

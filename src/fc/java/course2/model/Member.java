@@ -1,28 +1,25 @@
 package fc.java.course2.model;
 
-public class Person {
+public class Member {
     private String name;
     private int age;
     private String email;
-    private Address address;
 
-    public Person() {
+    public Member() {
     }
 
-    public Person(String name, int age, String email, Address address) {
+    public Member(String name, int age, String email) {
         this.name = name;
         this.age = age;
         this.email = email;
-        this.address = address;
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Member{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", email='" + email + '\'' +
-                ", address=" + address +
                 '}';
     }
 }

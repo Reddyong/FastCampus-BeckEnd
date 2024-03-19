@@ -13,6 +13,22 @@ public class Item {
         this.description = description;
     }
 
+    public String getImg() {
+        return img;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     @Override
     public String toString() {
         return "Item{" +

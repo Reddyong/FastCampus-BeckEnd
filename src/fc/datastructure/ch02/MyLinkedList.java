@@ -1,5 +1,8 @@
 package fc.datastructure.ch02;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+
 public class MyLinkedList<T> implements IList<T> {
     private int size;
     private Node head;

@@ -38,7 +38,7 @@ public class TwoSum {
 
     public static void main(String[] args) {
         TwoSum sol = new TwoSum();
-        int[] solution1 = sol.twoSum(new int[]{2, 7, 11, 15}, 28, 3);
+        int[] solution1 = sol.twoSum(new int[]{2, 7, 11, 15}, 13, 2);
         int[] solution2 = sol.twoSum(new int[]{3, 2, 4}, 6, 2);
         int[] solution3 = sol.twoSum(new int[]{3, 3}, 6, 2);
 

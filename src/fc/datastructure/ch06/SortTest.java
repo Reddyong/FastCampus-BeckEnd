@@ -11,7 +11,7 @@ class SortTest extends BaseSortTest {
     private BubbleSort bubbleSort = new BubbleSort();
     private InsertionSort insertionSort = new InsertionSort();
 //    private QuickSort quickSort = new QuickSort();
-//    private MergeSort mergeSort = new MergeSort();
+    private MergeSort mergeSort = new MergeSort();
 
     @Test
     void bubbleSort() {
@@ -46,14 +46,14 @@ class SortTest extends BaseSortTest {
 //        }
 //    }
 //
-//    @Test
-//    void mergeSort() {
-//        for (int i = 1; i < 100; i++) {
-//            int[] arr = createRandomArray(i);
-//            int[] expected = Arrays.copyOf(arr, arr.length);
-//            Arrays.sort(expected);
-//            mergeSort.sort(arr);
-//            assertArrayEquals(expected, arr);
-//        }
-//    }
+    @Test
+    void mergeSort() {
+        for (int i = 1; i < 100; i++) {
+            int[] arr = createRandomArray(i);
+            int[] expected = Arrays.copyOf(arr, arr.length);
+            Arrays.sort(expected);
+            mergeSort.sort(arr);
+            assertArrayEquals(expected, arr);
+        }
+    }
 }

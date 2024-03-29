@@ -55,6 +55,7 @@ public class KeysAndRooms {
         r1.add(Arrays.asList(2));
         r1.add(Arrays.asList(3));
         r1.add(new ArrayList<>());
+
         List<List<Integer>> r2 = new ArrayList<>();
         r2.add(Arrays.asList(1, 3));
         r2.add(Arrays.asList(3, 0, 1));
